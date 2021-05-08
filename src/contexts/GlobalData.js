@@ -532,6 +532,7 @@ export function useGlobalData() {
   const [state, { update, updateAllPairsInUniswap, updateAllTokensInUniswap }] = useGlobalDataContext()
   const [ethPrice, oldEthPrice] = useEthPrice()
 
+  console.log('ETHPRICE ' + ethPrice + ', ' + oldEthPrice)
   const data = state?.globalData
 
   useEffect(() => {

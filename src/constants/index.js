@@ -1,4 +1,4 @@
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+export const FACTORY_ADDRESS = '0xb0f0a809b898b91db7d862819dbff83d3539bf82'
 
 export const BUNDLE_ID = '1'
 
@@ -33,8 +33,7 @@ export const PAIR_BLACKLIST = [
 
 // warnings to display if page contains info about blocked token
 export const BLOCKED_WARNINGS = {
-  '0xf4eda77f0b455a12f3eb44f8653835f377e36b76':
-    'TikTok Inc. has asserted this token is violating its trademarks and therefore is not available.',
+  '0xf4eda77f0b455a12f3eb44f8653835f377e36b76': 'TikTok Inc. has asserted this token is violating its trademarks and therefore is not available.',
 }
 
 /**
